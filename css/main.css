@@ -1215,7 +1215,7 @@ h1.intro-header {
     font-family: "montserrat-regular", sans-serif;
     font-size: 3.4rem;
     line-height: 1.324;
-    color: #151515;
+    color: #1D357F;
     position: relative;
     padding-bottom: 3.6rem;
     text-align: center;
@@ -1288,7 +1288,7 @@ h1.intro-header::before {
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);
     z-index: 501;
-    background-color: rgba(204, 176, 241, 0.644);
+    background-color: #1D357F;
     border-radius: 5px;
     /*     max-width: 100%;
  */
@@ -1544,16 +1544,16 @@ h1.intro-header::before {
 
 #header-nav-wrap .header-main-nav li a,
 #header-nav-wrap .header-main-nav li a:visited {
-    color: rgb(0, 0, 0);
+    color: white;
 }
 
 #header-nav-wrap .header-main-nav li a:hover,
 #header-nav-wrap .header-main-nav li a:focus {
-    color: #9500f8;
+    color: #00e5ff;
 }
 
 #header-nav-wrap .header-main-nav li.current a {
-    color: #000000;
+    color: #00e5ff;
 }
 
 #header-nav-wrap .cta {
@@ -2412,13 +2412,13 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
     min-height: 450px;
     background: #ffffff;
     overflow: hidden;
-    padding-top: 25px;
+    padding-top: 4rem;
 }
 
 #about {
     min-height: 786px;
     background: #ffffff;
-    padding-top: 18rem;
+    padding-top: 4rem;
     overflow: hidden;
 }
 
