@@ -1795,14 +1795,21 @@ h1.intro-header::before {
 }
 
 .imgSobre {
-    width: 500px !important;
-    border-radius: 10px;
-    height: 350px;
+    width: 832px;
+    height: 303px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    margin:50px 0 50px 0;
 }
 
 .imgProfissional {
     width: 460px !important;
     border-radius: 10px;
+}
+
+.sobreXVia {
+   
+
 }
 
 
@@ -2175,9 +2182,10 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
         font-size: 1.5rem;
     }
     .imgSobre {
-        width: 100% !important;
-        display: inline-block;
-        margin: 0 auto;
+        width: 832px;
+        height: 303px;
+        object-fit: cover;
+        object-position: 50% 50%;
     }
     .home-content-left h1 {
         font-size: 4.2rem;
@@ -2229,10 +2237,10 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
         margin-bottom: 3.6rem;
     }
     .imgSobre {
-        width: 100% !important;
-        ;
-        display: inline-block;
-        margin: 0 auto;
+        width: 832px;
+        height: 303px;
+        object-fit: cover;
+        object-position: 50% 50%;
     }
     .home-image-right {
         width: 400px;
