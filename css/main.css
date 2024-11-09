@@ -1222,6 +1222,9 @@ h1.intro-header {
     position: relative;
     padding-bottom: 3.6rem;
     text-align: center;
+
+    /*Acrescentei*/
+    margin-top: 3.6rem;
 }
 
 h1.intro-header::before {
@@ -1248,6 +1251,13 @@ h1.intro-header::before {
 
 .narrow {
     max-width: 800px;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -1293,7 +1303,11 @@ h1.intro-header::before {
     transform: translateX(-50%);
     z-index: 501;
     background-color: #1D357F;
-    border-radius: 5px;
+
+    /*alteração no header*/
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
     /*     max-width: 100%;
  */
 }
@@ -1808,8 +1822,9 @@ h1.intro-header::before {
 }
 
 .sobreXVia {
-   
-
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
 
 
@@ -2402,6 +2417,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 20px;
+    color: #fff;
 }
 
 .card-description {
