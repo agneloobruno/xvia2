@@ -3764,8 +3764,8 @@ footer ul a:visited {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-   
     gap: 100px 50px;
+    padding: 100px 50px;
 }
 
 #cardsClientes .cardSecretarias {
@@ -3810,11 +3810,15 @@ footer ul a:visited {
     top: 250px;
     width: 100%;
     height: 35px;
-    /*overflow: hidden;*/
+    padding: 0 30px;
+    overflow: hidden;
+    text-align: center;
+    transition: .5s;
 }
 
 #cardsClientes .cardSecretarias:hover .conteudoCard {
     top: 150px;
+    height: 250px;
 }
 
 #cardsClientes .cardSecretarias:hover .cardImgSecre {
@@ -3827,5 +3831,19 @@ footer ul a:visited {
     font-size: 1.5rem;
     font-weight: 700;
     line-height: 3rem;
+}
+
+#cardsClientes .cardSecretarias .conteudoCard p {
+    color: #333;
+}
+
+#cardsClientes .cardSecretarias .conteudoCard a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 8px;
+    background: #fff;
 }
 /*# sourceMappingURL=main.css.map */
